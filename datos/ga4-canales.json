@@ -1,0 +1,36 @@
+{
+  "url": "#/a328329191p457786627/reports/explorer?params=_u..nav%3Dmaui%26_u.date00%3D20261002%26_u.date01%3D20261019%26_r.explorerCard..startRow%3D0%26_r.explorerCard..r",
+  "fechas": "",
+  "ajuste": "50",
+  "cabecera": [
+    "columna de selección",
+    "Índice temático",
+    "Grupo de canales principal de la sesión (Grupo de canales predeterminado)Grupo de canale…redeterminado)",
+    "Sesiones",
+    "Sesiones con interacción",
+    "Porcentaje de interacciones",
+    "Tiempo de interacción medio por sesión",
+    "Eventos por sesión",
+    "Número de eventos Todos los eventosTodos los eventos",
+    "Eventos clave Todos los eventosTodos los eventos",
+    "Tasa de evento clave de sesión Todos los eventosTodos los eventos",
+    "Total de ingresos",
+    "Celda vacía para el total del resumen en",
+    "Celda vacía para el total en la columna Índice"
+  ],
+  "n": 11,
+  "datos": [
+    "1 | Direct | 1.142 (28,21 %) | 411 (22,67 %) | 35,99 % | 1 min y 26 s | 5,07 | 5.791 (28,72 %) | 0,00 (–) | 0 % | 0,00 $ (–)",
+    "2 | Paid Search | 1.000 (24,7 %) | 567 (31,27 %) | 56,7 % | 33 s | 4,98 | 4.980 (24,7 %) | 0,00 (–) | 0 % | 0,00 $ (–)",
+    "3 | Organic Search | 891 (22,01 %) | 484 (26,7 %) | 54,32 % | 1 min y 50 s | 5,99 | 5.337 (26,47 %) | 0,00 (–) | 0 % | 0,00 $ (–)",
+    "4 | Email | 312 (7,71 %) | 112 (6,18 %) | 35,9 % | 37 s | 3,93 | 1.226 (6,08 %) | 0,00 (–) | 0 % | 0,00 $ (–)",
+    "5 | Paid Social | 282 (6,97 %) | 83 (4,58 %) | 29,43 % | 18 s | 3,53 | 996 (4,94 %) | 0,00 (–) | 0 % | 0,00 $ (–)",
+    "6 | Referral | 270 (6,67 %) | 99 (5,46 %) | 36,67 % | 3 min y 57 s | 4,65 | 1.255 (6,22 %) | 0,00 (–) | 0 % | 0,00 $ (–)",
+    "7 | Organic Social | 89 (2,2 %) | 32 (1,77 %) | 35,96 % | 27 s | 4,18 | 372 (1,84 %) | 0,00 (–) | 0 % | 0,00 $ (–)",
+    "8 | Cross-network | 17 (0,42 %) | 16 (0,88 %) | 94,12 % | 30 s | 6,65 | 113 (0,56 %) | 0,00 (–) | 0 % | 0,00 $ (–)",
+    "9 | Unassigned | 14 (0,35 %) | 0 (0 %) | 0 % | 32 s | 3,64 | 51 (0,25 %) | 0,00 (–) | 0 % | 0,00 $ (–)",
+    "10 | Paid Other | 5 (0,12 %) | 3 (0,17 %) | 60 % | 7 s | 6,00 | 30 (0,15 %) | 0,00 (–) | 0 % | 0,00 $ (–)",
+    "11 | AI Assistant | 3 (0,07 %) | 3 (0,17 %) | 100 % | 2 min y 47 s | 4,33 | 13 (0,06 %) | 0,00 (–) | 0 % | 0,00 $ (–)"
+  ],
+  "texto": ""
+}
