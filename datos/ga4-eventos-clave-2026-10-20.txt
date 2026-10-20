@@ -1,0 +1,2 @@
+Captura: 2026-10-20 11:25 Ecuador · GA4 Actuaria (G-PG79TRGV7Z) → Administrar → Eventos → pestaña Eventos clave
+{ "claves": "Nombre del evento Flujos activos en los últimos 28 días Menú de acciones click_phone Actuaria click_whatsapp Actuaria generate_lead Actuaria purchase No se han detectado datos de flujo Elementos por página: 25 1–4 de 4 ©2026 Google | Página principal de Analytics | Términos del Servicio | Política de Privacidad | Enviar comentarios Para marcar un evento como evento clave, selecciona la estrella qu" } 
