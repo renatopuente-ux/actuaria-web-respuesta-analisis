@@ -1,0 +1,327 @@
+{
+ "fecha": "2026-10-20T16:07:23.654Z",
+ "ok": 40,
+ "total": 40,
+ "res": [
+  {
+   "origen": "/es/importancia-de-realizar-un-diagnostico-financiero-de-una-empresa",
+   "esperado": "/post/importancia-de-realizar-un-diagnostico-financiero-de-una-empresa",
+   "final": 200,
+   "url": "/post/importancia-de-realizar-un-diagnostico-financiero-de-una-empresa",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/ley-de-medicina-prepagada-y-asistencia-medica-preexistencia-embarazo-y-adulto-mayor",
+   "esperado": "/post/ley-de-medicina-prepagada-y-asistencia-medica-preexistencia-embarazo-y-adulto-mayor",
+   "final": 200,
+   "url": "/post/ley-de-medicina-prepagada-y-asistencia-medica-preexistencia-embarazo-y-adulto-mayor",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/ranking-de-companias-de-seguros-por-primas-netas-emitidas-ecuador",
+   "esperado": "/post/ranking-de-companias-de-seguros-por-primas-netas-emitidas-ecuador",
+   "final": 200,
+   "url": "/post/ranking-de-companias-de-seguros-por-primas-netas-emitidas-ecuador",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/implicaciones-ley-organica-de-simplificacio-y-progresividad-tributaria",
+   "esperado": "/post/implicaciones-ley-organica-de-simplificacio-y-progresividad-tributaria",
+   "final": 200,
+   "url": "/post/implicaciones-ley-organica-de-simplificacio-y-progresividad-tributaria",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/importancia-del-estudio-actuarial-en-las-pymes",
+   "esperado": "/post/importancia-del-estudio-actuarial-en-las-pymes",
+   "final": 200,
+   "url": "/post/importancia-del-estudio-actuarial-en-las-pymes",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/analisis-del-mercado-asegurador-ecuatoriano-ecuatoriano",
+   "esperado": "/post/analisis-del-mercado-asegurador-ecuatoriano-ecuatoriano",
+   "final": 200,
+   "url": "/post/analisis-del-mercado-asegurador-ecuatoriano-ecuatoriano",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/nueva-resolucion-reservas-tecnicas",
+   "esperado": "/post/nueva-resolucion-reservas-tecnicas",
+   "final": 200,
+   "url": "/post/nueva-resolucion-reservas-tecnicas",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/fondos-complementarios-previsionales-cerrados",
+   "esperado": "/post/fondos-complementarios-previsionales-cerrados",
+   "final": 200,
+   "url": "/post/fondos-complementarios-previsionales-cerrados",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/importancia-de-estudios-de-impuestos-diferidos-por-las-provisiones-de-jubilacion-patronal",
+   "esperado": "/post/importancia-de-estudios-de-impuestos-diferidos-por-las-provisiones-de-jubilacion-patronal",
+   "final": 200,
+   "url": "/post/importancia-de-estudios-de-impuestos-diferidos-por-las-provisiones-de-jubilacion-patronal",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/dia-del-contador-ecuatoriano",
+   "esperado": "/post/dia-del-contador-ecuatoriano",
+   "final": 200,
+   "url": "/post/dia-del-contador-ecuatoriano",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/principio-de-plena-competencia-y-los-precios-de-transferencia",
+   "esperado": "/post/principio-de-plena-competencia-y-los-precios-de-transferencia",
+   "final": 200,
+   "url": "/post/principio-de-plena-competencia-y-los-precios-de-transferencia",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/dia-del-jubilado-ecuatoriano-la-realidad-actual-y-retos-para-el-pais",
+   "esperado": "/post/dia-del-jubilado-ecuatoriano-la-realidad-actual-y-retos-para-el-pais",
+   "final": 200,
+   "url": "/post/dia-del-jubilado-ecuatoriano-la-realidad-actual-y-retos-para-el-pais",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/situacion-laboral-ecuador-2020",
+   "esperado": "/post/situacion-laboral-ecuador-2020",
+   "final": 200,
+   "url": "/post/situacion-laboral-ecuador-2020",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/business-intelligence-y-sus-beneficios",
+   "esperado": "/post/business-intelligence-y-sus-beneficios",
+   "final": 200,
+   "url": "/post/business-intelligence-y-sus-beneficios",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/que-hay-despues-de-la-jubilacion-del-seguro-social-en-el-ecuador",
+   "esperado": "/post/que-hay-despues-de-la-jubilacion-del-seguro-social-en-el-ecuador",
+   "final": 200,
+   "url": "/post/que-hay-despues-de-la-jubilacion-del-seguro-social-en-el-ecuador",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/iess-sistema-de-gestion-inviable",
+   "esperado": "/post/iess-sistema-de-gestion-inviable",
+   "final": 200,
+   "url": "/post/iess-sistema-de-gestion-inviable",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/que-es-la-bonificacion-por-desahucio",
+   "esperado": "/post/que-es-la-bonificacion-por-desahucio",
+   "final": 200,
+   "url": "/post/que-es-la-bonificacion-por-desahucio",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/calculo-de-pensiones-de-iess",
+   "esperado": "/post/calculo-de-pensiones-de-iess",
+   "final": 200,
+   "url": "/post/calculo-de-pensiones-de-iess",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/impacto-de-la-inseguridad-en-ecuador-en-el-ambito-laboral-desafios-y-perspectivas",
+   "esperado": "/post/impacto-de-la-inseguridad-en-ecuador-en-el-ambito-laboral-desafios-y-perspectivas",
+   "final": 200,
+   "url": "/post/impacto-de-la-inseguridad-en-ecuador-en-el-ambito-laboral-desafios-y-perspectivas",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/la-gestion-de-riesgos-en-las-empresas-del-mercado-asegurador",
+   "esperado": "/post/la-gestion-de-riesgos-en-las-empresas-del-mercado-asegurador",
+   "final": 200,
+   "url": "/post/la-gestion-de-riesgos-en-las-empresas-del-mercado-asegurador",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/riesgo-moral-el-factor-invisible-que-dispara-la-inflacion-medica",
+   "esperado": "/post/riesgo-moral-el-factor-invisible-que-dispara-la-inflacion-medica",
+   "final": 200,
+   "url": "/post/riesgo-moral-el-factor-invisible-que-dispara-la-inflacion-medica",
+   "saltos": "301>200",
+   "bien": true
+  },
+  {
+   "origen": "/politica-datos",
+   "esperado": "/?documento=6aa18df6459360730d2f79e4_politica-privacidad-proteccion-datos.pdf",
+   "final": 200,
+   "url": "/?documento=6aa18df6459360730d2f79e4_politica-privacidad-proteccion-datos.pdf",
+   "saltos": "301>200",
+   "bien": true
+  },
+  {
+   "origen": "/estudiosactuariales",
+   "esperado": "/estudio-actuarial-jubilacion-patronal",
+   "final": 200,
+   "url": "/estudio-actuarial-jubilacion-patronal",
+   "saltos": "301>200",
+   "bien": true
+  },
+  {
+   "origen": "/gracias-pd",
+   "esperado": "/gracias",
+   "final": 200,
+   "url": "/gracias",
+   "saltos": "301>200",
+   "bien": true
+  },
+  {
+   "origen": "/equidad",
+   "esperado": "/ods5-appporlaequidad",
+   "final": 200,
+   "url": "/ods5-appporlaequidad",
+   "saltos": "301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/calculadora-jubilacion-patronal",
+   "esperado": "/12-calculadoras-especializadas",
+   "final": 200,
+   "url": "/12-calculadoras-especializadas",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/calculadoras",
+   "esperado": "/12-calculadoras-especializadas",
+   "final": 200,
+   "url": "/12-calculadoras-especializadas",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/calculadora-jubilacion-ordinaria",
+   "esperado": "/12-calculadoras-especializadas",
+   "final": 200,
+   "url": "/12-calculadoras-especializadas",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/calculadora-despido-intempestivo",
+   "esperado": "/12-calculadoras-especializadas",
+   "final": 200,
+   "url": "/12-calculadoras-especializadas",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/calculadora-impuesto-renta",
+   "esperado": "/12-calculadoras-especializadas",
+   "final": 200,
+   "url": "/12-calculadoras-especializadas",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/calculadoras-automatizadas-a-su-servicio",
+   "esperado": "/post/calculadoras-automatizadas-a-su-servicio",
+   "final": 200,
+   "url": "/post/calculadoras-automatizadas-a-su-servicio",
+   "saltos": "301>301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/nosotros",
+   "esperado": "/nosotros",
+   "final": 200,
+   "url": "/nosotros",
+   "saltos": "301>200",
+   "bien": true
+  },
+  {
+   "origen": "/ods15",
+   "esperado": "/ods15-nftree",
+   "final": 200,
+   "url": "/ods15-nftree",
+   "saltos": "301>200",
+   "bien": true
+  },
+  {
+   "origen": "/landing-ods4-capacitacionesfinancieras",
+   "esperado": "/landing-ods4-capacitacionesfinancieraspersonales",
+   "final": 200,
+   "url": "/landing-ods4-capacitacionesfinancieraspersonales",
+   "saltos": "301>200",
+   "bien": true
+  },
+  {
+   "origen": "/calculadora-vacaciones",
+   "esperado": "/12-calculadoras-especializadas",
+   "final": 200,
+   "url": "/12-calculadoras-especializadas",
+   "saltos": "301>200",
+   "bien": true
+  },
+  {
+   "origen": "/es/(.*)",
+   "esperado": "/prueba-comodin-xyz",
+   "final": 404,
+   "url": "/prueba-comodin-xyz",
+   "saltos": "301>404",
+   "bien": true
+  },
+  {
+   "origen": "/calculadora-jubilacion-patronal",
+   "esperado": "/12-calculadoras-especializadas",
+   "final": 200,
+   "url": "/12-calculadoras-especializadas",
+   "saltos": "301>200",
+   "bien": true
+  },
+  {
+   "origen": "/calculadora-jubilacion-ordinaria",
+   "esperado": "/12-calculadoras-especializadas",
+   "final": 200,
+   "url": "/12-calculadoras-especializadas",
+   "saltos": "301>200",
+   "bien": true
+  },
+  {
+   "origen": "/calculadora-despido-intempestivo",
+   "esperado": "/12-calculadoras-especializadas",
+   "final": 200,
+   "url": "/12-calculadoras-especializadas",
+   "saltos": "301>200",
+   "bien": true
+  },
+  {
+   "origen": "/calculadora-impuesto-renta",
+   "esperado": "/12-calculadoras-especializadas",
+   "final": 200,
+   "url": "/12-calculadoras-especializadas",
+   "saltos": "301>200",
+   "bien": true
+  }
+ ]
+}
