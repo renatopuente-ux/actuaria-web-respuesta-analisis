@@ -235,6 +235,17 @@
   .tag.bad { background: var(--bad-bg); color: var(--bad); } .tag.info { background: var(--info-bg); color: var(--info); }
   .tag.mute { background: rgba(21, 31, 71, .07); color: var(--ink-2); }
 
+/* Chips por equipo (sección 16): un color por responsable */
+.tag.t-web { background: rgba(76, 100, 217, .12); color: #2f5fcc; }
+.tag.t-mkt { background: rgba(223, 94, 45, .14); color: #8f3a17; }
+.tag.t-pmv { background: rgba(0, 137, 123, .14); color: #00564d; }
+.tag.t-ti { background: rgba(123, 31, 162, .12); color: #5b1b7a; }
+.tag.t-th { background: rgba(216, 27, 96, .12); color: #8a1244; }
+.tag.t-com { background: rgba(141, 110, 99, .16); color: #4e342e; }
+.tag.t-ext { background: rgba(21, 31, 71, .07); color: var(--ink-2); }
+td .tag + .tag { margin-left: 4px; }
+.tag_legend { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; margin: 8px 0 0; font: 600 12px var(--f-sub); color: var(--ink-2); }
+
   .arq { display: grid; gap: 14px; margin: 18px 0 8px; }
   .arq_row { display: flex; align-items: stretch; gap: 10px; }
   .arq_node { flex: 1 1 0; min-width: 0; background: var(--box); border-radius: 14px; box-shadow: var(--neu-sm); padding: 14px 16px; }
@@ -490,7 +501,7 @@
   <div class="cards is-3">
     <div class="card"><h4><i class="fa-solid fa-user-clock"></i>La web nueva retiene más</h4><p>El tiempo de interacción por sesión pasó de 35 s a 1 min 19 s y las vistas por usuario de 1,76 a 2,32.</p></div>
     <div class="card"><h4><i class="fa-solid fa-chart-line"></i>El orgánico venía bajando</h4><p>Desde junio, antes de la migración. Y el informe advierte con razón que septiembre tuvo una pauta intensa que eleva la base.</p></div>
-    <div class="card"><h4><i class="fa-solid fa-list-check"></i>Tres pendientes correctos</h4><p>Marcar eventos clave en GA4, filtrar el tráfico interno y revisar el referral. Los tomamos.</p></div>
+    <div class="card"><h4><i class="fa-solid fa-list-check"></i>Tres pendientes correctos</h4><p>Marcar eventos clave en GA4, filtrar el tráfico interno y revisar el referral. Los dos primeros ya están aplicados en el GA4 de Actuaria.</p></div>
   </div>
   <h3>Lo que las fuentes directas corrigen</h3>
   <ol class="rules">
@@ -498,7 +509,7 @@
     <li><b class="n">2</b><div><strong>Las redirecciones se cargaron al lanzar; los huecos que quedaban se cubrieron hoy.</strong> 317 de 317 reglas responden 301 al destino exacto y el destino responde 200. Webflow normaliza la barra final y cada página declara una sola canónica: las 74 vistas «con barra» de octubre son del WordPress del 1 y 2 de octubre.</div></li>
     <li><b class="n">3</b><div><strong>El orgánico no cayó al migrar; tuvo un bache de nueve días en un artículo, ya en recuperación.</strong> La primera semana en Webflow tuvo los mismos clics por día que septiembre. El bache del 9 al 18 es «Cálculo de pensiones del IESS», que trae el 47 % de los clics del sitio, mientras Google traspasaba la URL vieja a la nueva.</div></li>
   </ol>
-  <div class="note is-info"><i class="fa-solid fa-circle-info"></i><p><strong>Lo que pedimos, con plazo al 31 de octubre:</strong> las URL finales de los anuncios y el informe de páginas de destino de Google Ads y Meta, el acceso de administrador al GA4 con el que se hizo el informe, y las IP de las oficinas. Marketing y PMV ya tienen acceso a Search Console desde hoy, y el respaldo de cada cifra está en el <a href="https://renatopuente-ux.github.io/actuaria-web-respuesta-analisis/">anexo público</a>.</p></div>
+  <div class="note is-info"><i class="fa-solid fa-circle-info"></i><p><strong>Lo que pedimos, con plazo al 31 de octubre:</strong> las URL finales de los anuncios y el informe de páginas de destino de Google Ads y Meta, el acceso de administrador al GA4 con el que se hizo el informe, y la IP pública de cualquier otra sede, si la hay. Marketing y PMV ya tienen acceso a Search Console desde hoy, y el respaldo de cada cifra está en el <a href="https://renatopuente-ux.github.io/actuaria-web-respuesta-analisis/">anexo público</a>.</p></div>
 
   <div class="sheet_foot"><span>Área de Producto · Actuaria Consultores</span><span><b>01</b> / 11</span></div>
 </section><section class="sec" id="organico">
@@ -592,17 +603,17 @@
   
   <div class="tabla is-wide"><table><thead><tr><th>Herramienta</th><th>ID</th><th>Quién la administra</th><th>Estado</th></tr></thead><tbody>
     <tr><td>Tag Manager</td><td><code>GTM-WVB8ND3W</code></td><td>Actuaria; PMV con permiso de publicación</td><td><span class="tag ok">Versión 3 desde el 2 de octubre</span></td></tr>
-    <tr><td>GA4 de Actuaria</td><td><code>G-PG79TRGV7Z</code></td><td>Área de Producto; PMV es Editor desde el 2 de octubre</td><td><span class="tag ok">Eventos clave marcados hoy</span></td></tr>
+    <tr><td>GA4 de Actuaria</td><td><code>G-PG79TRGV7Z</code></td><td>Área de Producto; PMV es Editor desde el 2 de octubre</td><td><span class="tag ok">Eventos clave · tráfico interno filtrado</span></td></tr>
     <tr><td>GA4 del informe</td><td><code>G-0KW3C82GY3</code></td><td>Cuenta de terceros; el equipo web no la ve (pedimos confirmar que es la del informe)</td><td><span class="tag info">Recibe la web nueva en paralelo</span></td></tr>
     <tr><td>Google Ads</td><td><code>AW-16714364489</code> · <code>AW-18328490443</code></td><td>PMV</td><td><span class="tag warn">Conversión por URL pendiente de ajuste</span></td></tr>
     <tr><td>Search Console</td><td><code>https://actuaria.com/</code></td><td>Área de Producto, propietaria verificada desde hoy; Marketing y PMV con acceso Completo desde hoy</td><td><span class="tag ok">Sitemap enviado · compartida</span></td></tr>
-    <tr><td>Clarity</td><td><code>o0nej6oe00</code></td><td>Actuaria; PMV invitado</td><td><span class="tag ok">Grabando</span></td></tr>
+    <tr><td>Clarity</td><td><code>o0nej6oe00</code></td><td>Actuaria; PMV invitado; excluye la IP de la oficina desde el 2 de octubre</td><td><span class="tag ok">Grabando</span></td></tr>
   </tbody></table></div>
   <div class="cards">
     <div class="card"><h4><i class="fa-solid fa-bolt"></i>Eventos que sí llegan desde el 2 de octubre</h4><p><code>generate_lead</code> (vista de /gracias), <code>click_whatsapp</code> y <code>click_phone</code>, a las dos propiedades, más las tres conversiones de Google Ads. Como dice el informe, no había eventos clave en ningún periodo: el contenedor anterior no enviaba eventos de lead a GA4.</p></div>
     <div class="card"><h4><i class="fa-solid fa-ban"></i>El dominio de pruebas no puede ser referral</h4><p>El código de medición solo corre si el host termina en actuaria.com. Los candidatos del referral (270 sesiones, 3 min 57 s) son clics de correos sin UTM y subdominios propios. La solución es etiquetar correos y pauta.</p></div>
     <div class="card"><h4><i class="fa-solid fa-gauge-high"></i>«Eventos por sesión» es medición, no uso</h4><p>El contenedor anterior disparaba un evento adicional en todas las páginas. Descontándolo (estimación), julio–septiembre quedarían en 3,97–4,44 frente a 4,99 en octubre.</p></div>
-    <div class="card"><h4><i class="fa-solid fa-building"></i>Tráfico interno</h4><p>Correcto filtrarlo, y el informe lo plantea con cautela; con sus cifras explica un 3,7 % del aumento del tiempo de interacción. Lo filtramos en las dos propiedades en cuanto tengamos las IP.</p></div>
+    <div class="card"><h4><i class="fa-solid fa-building"></i>Tráfico interno</h4><p>Correcto filtrarlo, y el informe lo plantea con cautela; con sus cifras explica un 3,7 % del aumento del tiempo de interacción. Clarity excluye la IP de la oficina desde el 2 de octubre y el GA4 de Actuaria la filtra desde el 21; en el GA4 del informe lo aplican sus administradores.</p></div>
   </div>
   <div class="chart"><p class="chart_title"><i class="fa-solid fa-diagram-project"></i>GA4 de Actuaria, 2 al 19 de octubre: sesiones por canal</p><div class="bars"><div class="bar" style="--w:100%;--c:var(--indigo)"><span class="bar_label">Direct · 35,99 % · 1 min y 26 s</span><span class="bar_track"><span class="bar_fill"></span></span><span class="bar_value">1.142</span></div><div class="bar" style="--w:88%;--c:var(--indigo)"><span class="bar_label">Paid Search · 56,7 % · 33 s</span><span class="bar_track"><span class="bar_fill"></span></span><span class="bar_value">1.000</span></div><div class="bar" style="--w:78%;--c:var(--indigo)"><span class="bar_label">Organic Search · 54,32 % · 1 min y 50 s</span><span class="bar_track"><span class="bar_fill"></span></span><span class="bar_value">891</span></div><div class="bar" style="--w:27%;--c:var(--indigo)"><span class="bar_label">Email · 35,9 % · 37 s</span><span class="bar_track"><span class="bar_fill"></span></span><span class="bar_value">312</span></div><div class="bar" style="--w:25%;--c:var(--indigo)"><span class="bar_label">Paid Social · 29,43 % · 18 s</span><span class="bar_track"><span class="bar_fill"></span></span><span class="bar_value">282</span></div><div class="bar" style="--w:24%;--c:var(--indigo)"><span class="bar_label">Referral · 36,67 % · 3 min y 57 s</span><span class="bar_track"><span class="bar_fill"></span></span><span class="bar_value">270</span></div><div class="bar" style="--w:8%;--c:var(--indigo)"><span class="bar_label">Organic Social · 35,96 % · 27 s</span><span class="bar_track"><span class="bar_fill"></span></span><span class="bar_value">89</span></div></div><p class="chart_note">Por canal: sesiones, tasa de interacción y tiempo medio. El orgánico y el directo son los canales con más tiempo; Paid Social tiene el más bajo (18 s), habitual en campañas de alcance. Esta propiedad existe desde el 2 de octubre, por eso sus totales no coinciden con los del informe.</p></div>
 
@@ -616,7 +627,7 @@
     <tr><td>1. Pauta hacia URL antiguas; Estudio de 1.748 a 56</td><td>Las 1.748 vistas no fueron orgánicas (32 clics) y coinciden con la pauta de septiembre; la URL vieja redirige con 301; la pauta de octubre no aterrizó en el Estudio</td><td><span class="tag warn">PMV · urgente</span> revisar URL finales y páginas de destino</td></tr>
     <tr><td>2. Cambio de URL sin 301 completas</td><td>317/317 verificadas; huecos detectados hoy, cubiertos hoy</td><td><span class="tag ok">Hecho</span></td></tr>
     <tr><td>3. URL duplicadas con y sin barra</td><td>Webflow normaliza con 301 y canónica única; las vistas con barra son del WordPress del 1–2 de octubre</td><td><span class="tag mute">No aplica al sitio nuevo</span></td></tr>
-    <tr><td>4. Tráfico interno infla el tiempo</td><td>Cierto, y planteado con cautela; con las cifras del informe explica un 3,7 %</td><td><span class="tag info">Pendiente · IP de oficinas</span></td></tr>
+    <tr><td>4. Tráfico interno infla el tiempo</td><td>Cierto, y planteado con cautela; con las cifras del informe explica un 3,7 %. Clarity excluye la IP de la oficina desde el 2 de octubre y el GA4 de Actuaria la filtra desde el 21</td><td><span class="tag ok">Resuelto · falta el GA4 del informe</span></td></tr>
     <tr><td>5. Sin conversiones medibles</td><td>Los eventos llegan desde el 2 de octubre; faltaba marcarlos como clave</td><td><span class="tag ok">Hecho en GA4 de Actuaria</span> <span class="tag info">Pendiente en el GA4 del informe</span></td></tr>
     <tr><td>6. Referral inusual, ¿dominio de pruebas?</td><td>Imposible por configuración; candidatos: correo sin UTM y subdominios</td><td><span class="tag info">UTM · Marketing y PMV</span></td></tr>
   </tbody></table></div>
@@ -648,7 +659,7 @@
   <div class="sheet_foot"><span>Área de Producto · Actuaria Consultores</span><span><b>08</b> / 11</span></div>
 </section><section class="sec" id="hoy">
   <div class="sheet_head"><img src="https://cdn.prod.website-files.com/6967c96e0fba2ea4f94d3c69/6a70bbec17f7fc765c2ea5d9_logo-actuaria.svg" alt="Actuaria" width="120" height="25"><span>Respuesta al análisis del lanzamiento · actuaria.com</span></div>
-  <div class="sec_head"><p class="eyebrow">09 · Hecho hoy</p><h2>Mejoras aplicadas el 20 de octubre</h2></div>
+  <div class="sec_head"><p class="eyebrow">09 · Hecho</p><h2>Mejoras aplicadas el 20 y el 21 de octubre</h2></div>
   <p class="sec_intro">Todo publicado y verificado en producción; las capturas están en el anexo.</p>
   
   <ul class="timeline">
@@ -656,6 +667,7 @@
     <li style="--c:var(--orange)"><time>Redirecciones</time><b>39 reglas nuevas.</b> 24 de la lista de 404 de Search Console, 10 por las 404 con visitas de Clarity, 4 reglas base de calculadoras y un comodín /es/(.*). Verificadas 40 de 40 con el sitio publicado.</li>
     <li><time>Search Console</time><b>Sitemap antiguo retirado.</b> /sitemap_index.xml (371 páginas, «No se ha podido obtener») ya no figura. Las páginas nuevas clave están indexadas; rastreo prioritario pedido para la URL vieja del IESS.</li>
     <li style="--c:var(--orange)"><time>GA4 de Actuaria</time><b>Tres eventos clave.</b> generate_lead, click_whatsapp y click_phone cuentan como conversiones desde hoy.</li>
+    <li><time>GA4 de Actuaria</time><b>Tráfico interno filtrado.</b> Desde el 21 de octubre, regla con la IP pública de la oficina (la misma que Clarity bloquea desde el 2) y filtro «Internal Traffic» activo.</li>
     <li><time>Acta de Entrega</time><b>Al día.</b> Con los cambios del 8 al 20 de octubre y los pendientes con responsable en su sección 16: <a href="https://renatopuente-ux.github.io/actuaria-web-entrega/">renatopuente-ux.github.io/actuaria-web-entrega/</a></li>
     <li style="--c:var(--orange)"><time>Anexo</time><b>Respaldo público.</b> La evidencia por tema, los datos de Search Console y GA4 y las comprobaciones en vivo, legibles y descargables: <a href="https://renatopuente-ux.github.io/actuaria-web-respuesta-analisis/">renatopuente-ux.github.io/actuaria-web-respuesta-analisis/</a></li>
   </ul>
@@ -673,7 +685,7 @@
       <li><strong>Urgente:</strong> cambiar la conversión de Google Ads por URL a «contiene /estudio-actuarial-jubilacion-patronal» (pendiente en el acta desde el 5 de octubre).</li>
       <li>Acceso de administrador al GA4 del informe (G-0KW3C82GY3), al contenedor GTM-WHVP5PDX y al proyecto de Clarity o0mpb4cw3z, o la confirmación de quién los administra.</li>
       <li>Marcar en el GA4 del informe los eventos generate_lead, click_whatsapp y click_phone como eventos clave.</li>
-      <li>La lista de IP públicas de las oficinas de Quito y Guayaquil, para el filtro de tráfico interno.</li>
+      <li>Si alguna otra sede sale a internet con otra IP pública, esa IP, para sumarla al filtro; la de la oficina principal ya está excluida en Clarity y en el GA4 de Actuaria.</li>
       <li>UTM en los envíos de correo (Brevo) y en la pauta social.</li>
       <li>Confirmar que las invitaciones a Tag Manager y Clarity, enviadas desde las plataformas el 2 de octubre y listadas en el acta, están aceptadas; si no, las reenviamos.</li>
     </ol></div>
